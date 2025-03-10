@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "The Grand Hyatt", "location": "Mumbai", "rating": 5 },
+  { "id": 2, "name": "Ramada Plaza by Wyndham Palm Grove", "location": "Mumbai", "rating": 4 },
+  { "id": 3, "name": "Ramada by Wyndham", "location": "Navi Mumbai", "rating": 4.5 }
+]

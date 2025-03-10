@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "user": "Basant Mandal",
+    "hotel": "The Grand Hyatt",
+    "checkInDate": "2025-03-08"
+  },
+  {
+    "id": 2,
+    "user": "Basant Mandal 2",
+    "hotel": "Ramada Plaza by Wyndham Palm Grove",
+    "checkInDate": "2025-03-09"
+  },
+  {
+    "id": 3,
+    "user": "Basant Mandal 3",
+    "hotel": "Ramada by Wyndham",
+    "checkInDate": "2025-03-10"
+  }
+]
