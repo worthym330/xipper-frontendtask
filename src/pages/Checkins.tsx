@@ -11,7 +11,7 @@ function Checkins() {
   const [checkins, setCheckins] = useState<Checkin[]>([]);
 
   useEffect(() => {
-    fetch("/data/checkin.json")
+    fetch("http://localhost:5300/checkin")
       .then((res) => res.json())
       .then((data) => setCheckins(data));
   }, []);

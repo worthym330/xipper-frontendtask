@@ -11,7 +11,7 @@ function Hotels() {
   const [hotels, setHotels] = useState<Hotel[]>([]);
 
   useEffect(() => {
-    fetch("/data/hotels.json")
+    fetch("http://localhost:5300/hotels")
       .then((res) => res.json())
       .then((data) => setHotels(data));
   }, []);

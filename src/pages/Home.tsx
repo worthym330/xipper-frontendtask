@@ -10,7 +10,7 @@ function Users() {
   const [users, setUsers] = useState<User[]>([]);
 
   useEffect(() => {
-    fetch("/data/users.json")
+    fetch("http://localhost:5300/users")
       .then((res) => res.json())
       .then((data) => setUsers(data));
   }, []);

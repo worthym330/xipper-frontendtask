@@ -1,0 +1,62 @@
+{
+  "checkin": [
+    {
+      "id": 1,
+      "user": "Basant Mandal",
+      "hotel": "The Grand Hyatt",
+      "aadhaar": "1234-5678-9012"
+    },
+    {
+      "id": 2,
+      "user": "Basant Mandal 2",
+      "hotel": "Ramada Plaza by Wyndham Palm Grove",
+      "aadhaar": "2345-6789-0123"
+    },
+    {
+      "id": 3,
+      "user": "Basant Mandal 3",
+      "hotel": "Ramada by Wyndham",
+      "aadhaar": "3456-7890-1234"
+    }
+  ],
+  "users": [
+    { "id": 1, "name": "Basant Mandal", "email": "basant@example.com" },
+    { "id": 2, "name": "Basant Mandal 2", "email": "basant@example.com" },
+    { "id": 3, "name": "Basant Mandal 3", "email": "basant@example.com" }
+  ],
+  "hotels": [
+    { "id": 1, "name": "The Grand Hyatt", "location": "Mumbai", "rating": 5 },
+    {
+      "id": 2,
+      "name": "Ramada Plaza by Wyndham Palm Grove",
+      "location": "Mumbai",
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "name": "Ramada by Wyndham",
+      "location": "Navi Mumbai",
+      "rating": 4.5
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "user": "Basant Mandal",
+      "hotel": "The Grand Hyatt",
+      "checkInDate": "2025-03-08"
+    },
+    {
+      "id": 2,
+      "user": "Basant Mandal 2",
+      "hotel": "Ramada Plaza by Wyndham Palm Grove",
+      "checkInDate": "2025-03-09"
+    },
+    {
+      "id": 3,
+      "user": "Basant Mandal 3",
+      "hotel": "Ramada by Wyndham",
+      "checkInDate": "2025-03-10"
+    }
+  ]
+}

@@ -11,7 +11,7 @@ function Bookings() {
   const [bookings, setBookings] = useState<Booking[]>([]);
 
   useEffect(() => {
-    fetch("/data/bookings.json")
+    fetch("http://localhost:5300/bookings")
       .then((res) => res.json())
       .then((data) => setBookings(data));
   }, []);
